@@ -1,0 +1,113 @@
+/* De início irei zerar a margin e o padding do documento e
+a box-sizing pra border-box pra melhor dimensionamento e estilização posteriormente */
+*
+{
+  font-family: "Chakra Petch", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilizando o conteúdo */
+header,
+footer
+{
+  border-bottom: #F3EFEE 3px solid;
+  border-top: #F3EFEE 3px solid;
+}
+
+header h1,
+p
+{
+  background-color: #07192C;
+  color: #FFFFFF;
+  padding-top: 10px;
+  text-align: center;
+}
+
+header p
+{
+  padding-bottom: 10px;
+}
+
+body
+{
+  background-color: #EE7623;
+  color: #F3EFEE;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container
+{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+form
+{
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+form fieldset
+{
+  background-color: #07192C;
+  border: 1px solid #F3EFEE;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+legend
+{
+  background-color: #07192C;
+  border: 1px solid #F3EFEE;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.blocos
+{
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
+input, select, textarea
+{
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn
+{
+  background-color: #EE7623;
+  border: #F3EFEE 3px solid;
+  color: #F3EFEE;
+  font-size: 20px;
+  height: 20%;
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+.btn:hover
+{
+  background-color: #07192C;
+  border: #F3EFEE 3px solid;
+  color: #F3EFEE;
+}
+
+footer
+{
+  background-color: #07192c;
+  padding: 20px;
+}
+
+.select input{
+  width: auto;
+}
+
+input{
+  width: 40%;
+}
